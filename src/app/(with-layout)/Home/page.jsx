@@ -69,13 +69,11 @@ function Home() {
                     <img src="/watch.png" alt="" />
                     <span className='text-white text-center'>Bienes</span>
                 </div>
-                <div className='h-[70px] w-[70px] bg-red-500 rounded-[10px] p-2'>
+                <div className='h-[70px] w-[70px] flex justify-center items-center bg-yellow-300 rounded-[10px] p-2'>
                     <img src="/watch.png" alt="" />
-                    <span className='text-white text-center'>Product</span>
                 </div>
-                <div className='h-[70px] w-[70px] bg-yellow-500 rounded-[10px] p-2'>
-                    <img src="/watch.png" alt="" />
-                    <span className='text-white  text-center'>Product</span>
+                <div className='h-[70px] w-[70px] bg-yellow-500 rounded-[10px] '>
+                <img src="/pub1.jpg" className='rounded-[10px]' alt="" />
                 </div>
             </div>
             <div className='grid grid-cols-3 gap-x-4 py-4'>
@@ -101,43 +99,40 @@ function Home() {
 
             </div>
             <h3>Ofertas</h3>
-            <div className='flex w-full justify-between  py-4'>
-                <div className='h-[100px] w-[100px] bg-green-500 rounded-[10px] p-2'>
-                    <img src="/watch.png" alt="" />
-                    <span className='block w-full text-white text-center p-2'>lorem</span>
-                </div>
-                <div className='h-[100px] w-[100px] bg-purple-500 rounded-[10px]  p-2'>
-                    <img src="/watch.png" alt="" />
-                    <span className='block w-full text-white text-center p-2'>lorem</span>                </div>
-                <div className='h-[100px] w-[100px] bg-red-500 rounded-[10px]  p-2'>
-                    <img src="/watch.png" alt="" />
-                    <span className='block w-full text-white text-center p-2'>lorem</span>                </div>
+            <div className='h-[200px] w-full flex flex-row-reverse w-full justify-between  py-4 overflow-scroll'>
+                <img src="/pub7.webp" className='px-5' alt="" />
+                <img src="/pub4.jpg" className='px-5' alt="" />
+                <img src="/pub5.jpg" className='px-5' alt="" />
+                <img src="/pub1.jpg" className='pr-5' alt="" />
+                <img src="/pub6.webp" className='px-5' alt="" />
+                <img src="/pub2.png" className='px-5' alt="" />
+                <img src="/pub3.png" className='pl-5' alt="" />
+                <img src="/pub4.jpg" className='px-5' alt="" />
+
             </div>
             <h3>Novedades</h3>
 
-            <div className='flex w-full justify-between  py-4'>
-                <div className='h-[100px] w-[100px] bg-green-500 rounded-[10px]  p-2'>
-                    <img src="/watch.png" alt="" />
-                    <span className='block w-full text-white text-center p-2'>lorem</span>                </div>
-                <div className='h-[100px] w-[100px] bg-purple-500 rounded-[10px]  p-2'>
-                    <img src="/watch.png" alt="" />
-                    <span className='block w-full text-white text-center p-2'>lorem</span>                </div>
-                <div className='h-[100px] w-[100px] bg-red-500 rounded-[10px]  p-2'>
-                    <img src="/watch.png" alt="" />
-                    <span className='block w-full text-white text-center p-2'>lorem</span>                </div>
+            <div className='h-[200px] w-full flex w-full justify-between  py-4 overflow-scroll'>
+                <img src="/pub1.jpg" className='pr-5' alt="" />
+                <img src="/pub6.webp" className='px-5' alt="" />
+                <img src="/pub7.webp" className='px-5' alt="" />
+                <img src="/pub4.jpg" className='px-5' alt="" />
+                <img src="/pub5.jpg" className='px-5' alt="" />
+                <img src="/pub2.png" className='px-5' alt="" />
+                <img src="/pub3.png" className='pl-5' alt="" />
             </div>
             <Card i={{
                 nombre: 'Producto',
                 info: 'Trueke y compra',
                 descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
-                url: './cartera.svg',
+                url: './pop.png',
                 costo: '100'
             }} />
             <CardV i={{
                 nombre: 'Producto',
                 info: 'Trueke y compra',
                 descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
-                url: './cartera.svg',
+                url: './pub3.png',
                 costo: '100'
             }} />
             {/* {(modal == 'Recetar' || modal == 'Comprar') && <Modal funcion={storeConfirm}>Estas seguro de cambiar a {modal}. <br /> {Object.keys(cart).length > 0 && 'Tus datos se borraran' }</Modal>}
