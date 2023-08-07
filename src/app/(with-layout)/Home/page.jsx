@@ -100,14 +100,14 @@ function Home() {
             </div>
             <h3>Ofertas</h3>
             <div className='h-[200px] w-full flex w-full justify-between  py-4 overflow-x-scroll'>
-                <img src="/pub7.webp" className='px-5' alt="" />
+                <img src="/pub7.webp" className='pr-5' alt="" />
                 <img src="/pub4.jpg" className='px-5' alt="" />
                 <img src="/pub5.jpg" className='px-5' alt="" />
-                <img src="/pub1.jpg" className='pr-5' alt="" />
+                <img src="/pub1.jpg" className='px-5' alt="" />
                 <img src="/pub6.webp" className='px-5' alt="" />
                 <img src="/pub2.png" className='px-5' alt="" />
-                <img src="/pub3.png" className='pl-5' alt="" />
-                <img src="/pub4.jpg" className='px-5' alt="" />
+                <img src="/pub3.png" className='px-5' alt="" />
+                <img src="/pub4.jpg" className='pl-5' alt="" />
 
             </div>
             <h3>Novedades</h3>
