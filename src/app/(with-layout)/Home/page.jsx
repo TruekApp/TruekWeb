@@ -121,6 +121,38 @@ function Home() {
                 <img src="/pub2.png" className='px-5' alt="" />
                 <img src="/pub3.png" className='pl-5' alt="" />
             </div>
+            <div className='w-full flex flex-col justify-center items-center'>
+
+
+
+<Card i={{
+                nombre: 'Producto',
+                info: 'Trueke y compra',
+                descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
+                url: './pop.png',
+                costo: '100'
+            }} />
+            <CardV i={{
+                nombre: 'Producto',
+                info: 'Trueke y compra',
+                descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
+                url: './pub3.png',
+                costo: '100'
+            }} />
+<Card i={{
+                nombre: 'Producto',
+                info: 'Trueke y compra',
+                descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
+                url: './pop.png',
+                costo: '100'
+            }} />
+            <CardV i={{
+                nombre: 'Producto',
+                info: 'Trueke y compra',
+                descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
+                url: './pub3.png',
+                costo: '100'
+            }} />
             <Card i={{
                 nombre: 'Producto',
                 info: 'Trueke y compra',
@@ -135,6 +167,9 @@ function Home() {
                 url: './pub3.png',
                 costo: '100'
             }} />
+
+            </div>
+            
             {/* {(modal == 'Recetar' || modal == 'Comprar') && <Modal funcion={storeConfirm}>Estas seguro de cambiar a {modal}. <br /> {Object.keys(cart).length > 0 && 'Tus datos se borraran' }</Modal>}
 
             {(user.rol == 'Medico' || user.rol == 'Administrador') && <div className='relative flex justify-between left-0 right-0 m-auto  w-[90vw] max-w-[600px] mb-5'>
