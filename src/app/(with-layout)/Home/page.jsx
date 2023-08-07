@@ -64,13 +64,15 @@ function Home() {
         nombre: 'Producto',
         info: 'Trueke y compra',
         descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
-        url: './bg.svg',
+        url: './cartera.svg',
         costo: '100'
     }} />
      <CardV i={{
-        nombre: 'Producto',
-        text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
-        image: './bg.svg',
+       nombre: 'Producto',
+       info: 'Trueke y compra',
+       descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
+       url: './cartera.svg',
+       costo: '100'
     }} />
             {/* {(modal == 'Recetar' || modal == 'Comprar') && <Modal funcion={storeConfirm}>Estas seguro de cambiar a {modal}. <br /> {Object.keys(cart).length > 0 && 'Tus datos se borraran' }</Modal>}
 

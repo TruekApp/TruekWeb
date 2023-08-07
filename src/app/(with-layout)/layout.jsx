@@ -100,10 +100,10 @@ function Home({ children }) {
 
           {pathname === '/Home' && <div className="relative lg:min-w-[500px]">
             <div className="absolute inset-y-0 right-[5px] flex items-center py-3 pointer-events-none">
-              <svg className="w-8 h-8 text-white " aria-hidden="true" fill="text-gray-100" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill="#2A52BE" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd"></path></svg>
+              <svg className="w-8 h-8 text-white " aria-hidden="true" fill="text-gray-100" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill="#38ABD2" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd"></path></svg>
               <span className="sr-only">Search icon</span>
             </div>
-            <input type="text" id="search-navbar" onChange={handlerFilter} className="block w-full bg-white rounded-full lg:min-w-[400px] p-2 pl-10 text-[14px] text-gray-950 text-center border-b border-gray-300  bg-transparent focus:ring-white focus:border-white focus:outline-transparent" placeholder="Busca tu producto..." />
+            <input type="text" id="search-navbar" onChange={handlerFilter} className="block w-full bg-white rounded-full lg:min-w-[400px] p-2 pl-10 text-[14px] text-gray-950 text-left border-b border-gray-300  bg-transparent focus:ring-white focus:border-white focus:outline-transparent" placeholder="Busca tu producto..." />
           </div>}
 
           { <Cart />}
@@ -115,8 +115,8 @@ function Home({ children }) {
           {children}
 
         </div>
-        {user && user !== undefined && <div className="fixed bottom-0  z-30 w-full h-[65px] bg-[#2A52BE] rounded-t-[40px] lg:hidden">
-          <BottomNavigation rol={user.rol} />
+        {<div className="fixed bottom-0  z-30 w-full h-[65px] bg-[#38ABD2] rounded-t-[40px] lg:hidden">
+          <BottomNavigation rol={'Cliente'} />
         </div>}
         {/* {user && user !== undefined && <div className="fixed bottom-0  z-30 w-full h-[65px] bg-gray-50 border-t-8 border-white rounded-t-[40px] lg:hidden">
           <BottomNavigation rol={user.rol} />
