@@ -32,7 +32,7 @@ export default function Home() {
   // }, [user])
 
   return (
-    <div className="flex min-h-screen items-end justify-between p-5"
+    <div className="w-screen flex min-h-screen items-end justify-between p-5"
       style={{
         backgroundImage: 'url(/bg.svg)',
         backgroundPosition: 'center top',
