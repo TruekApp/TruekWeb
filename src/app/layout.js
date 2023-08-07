@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         <meta name="theme-color" content="#00A5DD" />
         <meta name="msapplication-navbutton-color" content="#00A5DD" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#00A5DD" />
-        <meta name="description" content="Sistema de Administracion de Clientes y Formularios" />
+        <meta name="description" content="Truekes, Ofertas, comunidades y mucho mas" />
         <meta name="keywords" content="Logistics Gear" />
         <meta name="author" content="Logistics Gear" />
         <title>Truek App</title>
