@@ -110,7 +110,7 @@ function Home({ children }) {
         </nav>
 
 
-        <div className="lg:px-[50px]">
+        <div className="lg:px-[50px] w-screen">
 
           {children}
 

@@ -55,8 +55,8 @@ export default function Card({ i }) {
             </div>
             <div className='w-full flex justify-between  items-center p-2'>
                 <div class="flex items-baseline text-gray-900">
-                    <span class="text-[12px]  text-gray-600 font-extrabold tracking-tight"> SUS</span>
-                    <span class="text-[18px]  text-gray-600 font-extrabold tracking-tight">{i.costo}</span>
+                    <span class="text-[12px]  text-red-600 font-extrabold tracking-tight"> SUS</span>
+                    <span class="text-[18px]  text-red-600 font-extrabold tracking-tight">{i.costo}</span>
                     {/* <span class="text-[14px] text-gray-600 font-semibold">Bs</span> */}
                 </div>
                 <div className='flex justify-between align-center'>

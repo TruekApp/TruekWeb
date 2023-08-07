@@ -9,7 +9,7 @@ import CardV from '@/components/CardV'
 
 import CardM from '@/components/CardM'
 // import QRreader from '@/components/QRreader'
-import Tag from '../../../components/Tag'
+import Tag from '@/components/Tag'
 import Cart from '../../../components/Cart'
 import Modal from '@/components/Modal'
 
@@ -39,7 +39,7 @@ function Home() {
     }
 
     function storeHandler(db) {
-      tienda !== db &&  setModal(db)
+        tienda !== db && setModal(db)
     }
     function storeConfirm() {
         setTienda(modal)
@@ -59,21 +59,79 @@ function Home() {
 
         <main className="p-5">
 
+            <h3>Categorias</h3>
+            <div className='flex w-full justify-between '>
+                <div className='h-[70px] w-[70px] bg-green-500 rounded-[10px]'>
+                    <span className='text-white'>Todos</span>
+                </div>
+                <div className='h-[70px] w-[70px] bg-purple-500 rounded-[10px]'>
+                    <span className='text-white'>Bienes</span>
+                </div>
+                <div className='h-[70px] w-[70px] bg-red-500 rounded-[10px]'>
+                    <span className='text-white'>Productos</span>
+                </div>
+            </div>
+            <div className='grid grid-cols-3 gap-x-4'>
 
-     <Card i={{
-        nombre: 'Producto',
-        info: 'Trueke y compra',
-        descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
-        url: './cartera.svg',
-        costo: '100'
-    }} />
-     <CardV i={{
-       nombre: 'Producto',
-       info: 'Trueke y compra',
-       descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
-       url: './cartera.svg',
-       costo: '100'
-    }} />
+                <Tag theme="Transparent">lorem</Tag>
+                <Tag theme="Transparent">lorem</Tag>
+                <Tag theme="Transparent">lorem</Tag>
+                <Tag theme="Transparent">lorem</Tag>
+                <Tag theme="Transparent">lorem</Tag>
+                <Tag theme="Transparent">lorem</Tag>
+
+            </div>
+
+            <h3>Filtrar</h3>
+            <div className='grid grid-cols-3 gap-x-4'>
+
+                <Tag theme="Transparent">lorem</Tag>
+                <Tag theme="Transparent">lorem</Tag>
+                <Tag theme="Transparent">lorem</Tag>
+                <Tag theme="Transparent">lorem</Tag>
+                <Tag theme="Transparent">lorem</Tag>
+                <Tag theme="Transparent">lorem</Tag>
+
+            </div>
+            <h3>Ofertas</h3>
+            <div className='flex w-full justify-between '>
+                <div className='h-[70px] w-[70px] bg-green-500 rounded-[10px]'>
+                    <span className='text-white'>Todos</span>
+                </div>
+                <div className='h-[70px] w-[70px] bg-purple-500 rounded-[10px]'>
+                    <span className='text-white'>Bienes</span>
+                </div>
+                <div className='h-[70px] w-[70px] bg-red-500 rounded-[10px]'>
+                    <span className='text-white'>Productos</span>
+                </div>
+            </div>
+            <h3>Novedades</h3>
+
+            <div className='flex w-full justify-between '>
+                <div className='h-[70px] w-[70px] bg-green-500 rounded-[10px]'>
+                    <span className='text-white'>Todos</span>
+                </div>
+                <div className='h-[70px] w-[70px] bg-purple-500 rounded-[10px]'>
+                    <span className='text-white'>Bienes</span>
+                </div>
+                <div className='h-[70px] w-[70px] bg-red-500 rounded-[10px]'>
+                    <span className='text-white'>Productos</span>
+                </div>
+            </div>
+            <Card i={{
+                nombre: 'Producto',
+                info: 'Trueke y compra',
+                descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
+                url: './cartera.svg',
+                costo: '100'
+            }} />
+            <CardV i={{
+                nombre: 'Producto',
+                info: 'Trueke y compra',
+                descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
+                url: './cartera.svg',
+                costo: '100'
+            }} />
             {/* {(modal == 'Recetar' || modal == 'Comprar') && <Modal funcion={storeConfirm}>Estas seguro de cambiar a {modal}. <br /> {Object.keys(cart).length > 0 && 'Tus datos se borraran' }</Modal>}
 
             {(user.rol == 'Medico' || user.rol == 'Administrador') && <div className='relative flex justify-between left-0 right-0 m-auto  w-[90vw] max-w-[600px] mb-5'>
