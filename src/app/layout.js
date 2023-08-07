@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/logo-dark.svg" />
         <link rel='manifest' href='/manifest.json' />
         <link rel='apple-touch-icon' href='/logo-dark.svg' />
-        <meta name="theme-color" content="#2A52BE" />
+        <meta name="theme-color" content="#00A5DD" />
         <meta name="msapplication-navbutton-color" content="#00A5DD" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#00A5DD" />
         <meta name="description" content="Sistema de Administracion de Clientes y Formularios" />
