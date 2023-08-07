@@ -5,6 +5,8 @@ import { useUser } from '@/context/Context.js'
 import Button from '@/components/Button'
 import Subtitle from '@/components/Subtitle'
 import Card from '@/components/Card'
+import CardV from '@/components/CardV'
+
 import CardM from '@/components/CardM'
 // import QRreader from '@/components/QRreader'
 import Tag from '../../../components/Tag'
@@ -64,6 +66,11 @@ function Home() {
         descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
         url: './bg.svg',
         costo: '100'
+    }} />
+     <CardV i={{
+        nombre: 'Producto',
+        text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
+        image: './bg.svg',
     }} />
             {/* {(modal == 'Recetar' || modal == 'Comprar') && <Modal funcion={storeConfirm}>Estas seguro de cambiar a {modal}. <br /> {Object.keys(cart).length > 0 && 'Tus datos se borraran' }</Modal>}
 
