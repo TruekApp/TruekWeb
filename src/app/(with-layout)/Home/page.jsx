@@ -99,7 +99,7 @@ function Home() {
 
             </div>
             <h3>Ofertas</h3>
-            <div className='h-[200px] w-full flex flex-row-reverse w-full justify-between  py-4 overflow-scroll'>
+            <div className='h-[200px] w-full flex w-full justify-between  py-4 overflow-scroll'>
                 <img src="/pub7.webp" className='px-5' alt="" />
                 <img src="/pub4.jpg" className='px-5' alt="" />
                 <img src="/pub5.jpg" className='px-5' alt="" />
