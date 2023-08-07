@@ -55,13 +55,13 @@ function Home() {
 
     return (
 
-        <main className="">
+        <main className="p-5">
 
 
      <Card i={{
         nombre: 'Producto',
         info: 'Trueke y compra',
-        descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis voluptatum ipsam quidem qui vel nobis? Accusamus, exercitationem qui! Cupiditate magni debitis provident enim nulla iure laborum deserunt ipsam maiores facilis.',
+        descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
         url: './bg.svg',
         costo: '100'
     }} />

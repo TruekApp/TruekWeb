@@ -9,7 +9,7 @@ export default function Card({ i }) {
     const { user, userDB, distributorPDB, setUserDistributorPDB, setUserItem, item, setUserData, setUserSuccess, cart, setUserCart, modal, setModal } = useUser()
     const router = useRouter()
 
- 
+
 
     // const addCart = (e) => {
     //     e.preventDefault()
@@ -38,30 +38,28 @@ export default function Card({ i }) {
     // }
     console.log(item)
     return (
-        <div class="relative w-full bg-gray-100 min-h-[180px] max-w-[500px] rounded-[15px] border border-gray-200 rounded-[20px] shadow mt-5"  style={{ display: 'grid', gridTemplateColumns: 'auto 150px' }}>
+        <div class="relative w-full bg-white min-h-[180px] max-w-[500px] rounded-[15px] border border-gray-200 rounded-[20px] shadow mt-5" style={{ display: 'grid', gridTemplateColumns: 'auto 150px' }}>
             <div class=" p-4  flex flex-col justify-between leading-normal">
                 <div class="">
                     <div class=" font-bold text-[16px] mb-2 text-gray-950">
                         {i['nombre']}
                     </div>
-
                 </div>
                 <p class="text-gray-700 text-base py-[10px]">{i.info}</p>
                 <div class="">
                     <p class="text-gray-700 text-[14px]">{i['descripcion']}</p>
                 </div>
             </div>
-
+            <div class="relative h-[150px] w-[150px] rounded-t text-center" style={{ backgroundImage: `url(${i.url})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
+            </div>
             <div className='w-full flex justify-between  items-center p-4'>
                 <div class="flex items-baseline text-gray-900">
+                    <span class="text-[12px]  text-gray-600 font-extrabold tracking-tight"> SUS</span>
                     <span class="text-[18px]  text-gray-600 font-extrabold tracking-tight">{i.costo}</span>
-                    <span class="text-[18px]  text-gray-600 font-extrabold tracking-tight"> BS</span>
-
                     {/* <span class="text-[14px] text-gray-600 font-semibold">Bs</span> */}
-
                 </div>
             </div>
-            <div className='flex justify-between '>
+            <div className='flex justify-between align-center'>
                 <Button theme='MiniSecondary' >+</Button>
                 <span>0</span>
                 <Button theme='MiniPrimary' >-</Button>

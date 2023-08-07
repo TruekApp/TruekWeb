@@ -43,7 +43,7 @@ export default function Home() {
 
       }}
     >
-      <form className={`relative w-full bottom-0 space-y-3 lg:space-y-3 w-[100%] rounded-[30px]  h-auto py-8 lg:p-10`} onSubmit={signInHandler} >
+      <form className={`relative w-full bottom-[50px] space-y-3 lg:space-y-3 w-[100%] rounded-[30px]  h-auto py-8 lg:p-10`} onSubmit={signInHandler} >
         <h5 className="text-[24px] text-center text-white">Registrate</h5>
         <div>
           <label htmlFor="email" className="block mb-2 text-[14px] text-left font-medium text-white">Email</label>
