@@ -45,18 +45,13 @@ export default function Card({ nombre1, nombre2, nombre3, costo, url, empresa, d
             <div class=" p-4  flex flex-col justify-between leading-normal">
                 <div class="">
                     <div class=" font-bold text-[16px] mb-2 text-gray-950">
-                        {i['nombre de producto 1']}
+                        {i['nombre']}
                     </div>
-                    <div class=" font-bold text-[16px] mb-2 text-gray-950">
-                        {i['nombre de producto 2']}
-                    </div>
-                    <div class=" font-bold text-[16px] mb-2 text-gray-950">
-                        {i['nombre de producto 3']}
-                    </div>
+                 
                 </div>
-                <p class="text-gray-700 text-base py-[10px]">{i.empresa}</p>
+                <p class="text-gray-700 text-base py-[10px]">{i.info}</p>
                 <div class="">
-                    <p class="text-gray-700 text-[14px]">{i['descripcion basica']}</p>
+                    <p class="text-gray-700 text-[14px]">{i['descripcion']}</p>
                 </div>
             </div>
             <div class="relative h-[150px] w-[150px] rounded-t text-center" style={{ backgroundImage: `url(${i.url})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>

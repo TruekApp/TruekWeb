@@ -21,6 +21,7 @@ export default function Home() {
 
   const signInHandler = (e) => {
     e.preventDefault()
+    router.push('/Home')
 
   }
 
