@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content="Sistema de Administracion de Clientes y Formularios" />
         <meta name="keywords" content="Logistics Gear" />
         <meta name="author" content="Logistics Gear" />
-        <title>Precio Justo</title>
+        <title>Truek App</title>
       </head>
       <body className={inter.className}>
         <UserProvider>
