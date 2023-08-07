@@ -73,7 +73,7 @@ function Home() {
                     <img src="/watch.png" alt="" />
                 </div>
                 <div className='h-[70px] w-[70px] bg-yellow-500 rounded-[10px] '>
-                <img src="/pub1.jpg" className='rounded-[10px]' alt="" />
+                    <img src="/pub1.jpg" className='rounded-[10px]' alt="" />
                 </div>
             </div>
             <div className='grid grid-cols-3 gap-x-4 py-4'>
@@ -99,7 +99,7 @@ function Home() {
 
             </div>
             <h3>Ofertas</h3>
-            <div className='h-[200px] w-full flex w-full justify-between  py-4 overflow-scroll'>
+            <div className='h-[200px] w-full flex w-full justify-between  py-4 overflow-x-scroll'>
                 <img src="/pub7.webp" className='px-5' alt="" />
                 <img src="/pub4.jpg" className='px-5' alt="" />
                 <img src="/pub5.jpg" className='px-5' alt="" />
@@ -112,7 +112,7 @@ function Home() {
             </div>
             <h3>Novedades</h3>
 
-            <div className='h-[200px] w-full flex w-full justify-between  py-4 overflow-scroll'>
+            <div className='h-[200px] w-full flex w-full justify-between  py-4 overflow-x-scroll'>
                 <img src="/pub1.jpg" className='pr-5' alt="" />
                 <img src="/pub6.webp" className='px-5' alt="" />
                 <img src="/pub7.webp" className='px-5' alt="" />
@@ -125,51 +125,51 @@ function Home() {
 
 
 
-<Card i={{
-                nombre: 'Producto',
-                info: 'Trueke y compra',
-                descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
-                url: './pop.png',
-                costo: '100'
-            }} />
-            <CardV i={{
-                nombre: 'Producto',
-                info: 'Trueke y compra',
-                descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
-                url: './pub3.png',
-                costo: '100'
-            }} />
-<Card i={{
-                nombre: 'Producto',
-                info: 'Trueke y compra',
-                descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
-                url: './pop.png',
-                costo: '100'
-            }} />
-            <CardV i={{
-                nombre: 'Producto',
-                info: 'Trueke y compra',
-                descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
-                url: './pub3.png',
-                costo: '100'
-            }} />
-            <Card i={{
-                nombre: 'Producto',
-                info: 'Trueke y compra',
-                descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
-                url: './pop.png',
-                costo: '100'
-            }} />
-            <CardV i={{
-                nombre: 'Producto',
-                info: 'Trueke y compra',
-                descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
-                url: './pub3.png',
-                costo: '100'
-            }} />
+                <Card i={{
+                    nombre: 'Producto',
+                    info: 'Trueke y compra',
+                    descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
+                    url: './pop.png',
+                    costo: '100'
+                }} />
+                <CardV i={{
+                    nombre: 'Producto',
+                    info: 'Trueke y compra',
+                    descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
+                    url: './pub3.png',
+                    costo: '100'
+                }} />
+                <Card i={{
+                    nombre: 'Producto',
+                    info: 'Trueke y compra',
+                    descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
+                    url: './pop.png',
+                    costo: '100'
+                }} />
+                <CardV i={{
+                    nombre: 'Producto',
+                    info: 'Trueke y compra',
+                    descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
+                    url: './pub3.png',
+                    costo: '100'
+                }} />
+                <Card i={{
+                    nombre: 'Producto',
+                    info: 'Trueke y compra',
+                    descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
+                    url: './pop.png',
+                    costo: '100'
+                }} />
+                <CardV i={{
+                    nombre: 'Producto',
+                    info: 'Trueke y compra',
+                    descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
+                    url: './pub3.png',
+                    costo: '100'
+                }} />
 
             </div>
-            
+
             {/* {(modal == 'Recetar' || modal == 'Comprar') && <Modal funcion={storeConfirm}>Estas seguro de cambiar a {modal}. <br /> {Object.keys(cart).length > 0 && 'Tus datos se borraran' }</Modal>}
 
             {(user.rol == 'Medico' || user.rol == 'Administrador') && <div className='relative flex justify-between left-0 right-0 m-auto  w-[90vw] max-w-[600px] mb-5'>
