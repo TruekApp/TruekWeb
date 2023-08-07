@@ -10,7 +10,7 @@ export default function Button({ theme, click, children }) {
     switch (theme) {
         case 'Transparent':
             return <span
-                class={`w-[100%] bg-green-100 text-gray-400 text-[14px] text-center font-medium px-2.5 py-0.5 my-1 rounded-2xl 
+                class={`w-[100%] bg-white text-gray-400 text-[14px] text-center font-medium px-2.5 py-0 my-0.5 rounded-[10px] 
                 border border-gray-400`}
                 onClick={click}
             >

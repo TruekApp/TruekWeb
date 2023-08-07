@@ -60,18 +60,25 @@ function Home() {
         <main className="p-5">
 
             <h3>Categorias</h3>
-            <div className='flex w-full justify-between '>
-                <div className='h-[70px] w-[70px] bg-green-500 rounded-[10px]'>
-                    <span className='text-white'>Todos</span>
+            <div className='flex w-full justify-between  py-4'>
+                <div className='h-[70px] w-[70px] bg-green-500 rounded-[10px] p-2'>
+                    <img src="/watch.png" alt="" />
+                    <span className='text-white text-center'>Todos</span>
                 </div>
-                <div className='h-[70px] w-[70px] bg-purple-500 rounded-[10px]'>
-                    <span className='text-white'>Bienes</span>
+                <div className='h-[70px] w-[70px] bg-purple-500 rounded-[10px] p-2'>
+                    <img src="/watch.png" alt="" />
+                    <span className='text-white text-center'>Bienes</span>
                 </div>
-                <div className='h-[70px] w-[70px] bg-red-500 rounded-[10px]'>
-                    <span className='text-white'>Productos</span>
+                <div className='h-[70px] w-[70px] bg-red-500 rounded-[10px] p-2'>
+                    <img src="/watch.png" alt="" />
+                    <span className='text-white text-center'>Product</span>
+                </div>
+                <div className='h-[70px] w-[70px] bg-yellow-500 rounded-[10px] p-2'>
+                    <img src="/watch.png" alt="" />
+                    <span className='text-white  text-center'>Product</span>
                 </div>
             </div>
-            <div className='grid grid-cols-3 gap-x-4'>
+            <div className='grid grid-cols-3 gap-x-4 py-4'>
 
                 <Tag theme="Transparent">lorem</Tag>
                 <Tag theme="Transparent">lorem</Tag>
@@ -83,7 +90,7 @@ function Home() {
             </div>
 
             <h3>Filtrar</h3>
-            <div className='grid grid-cols-3 gap-x-4'>
+            <div className='grid grid-cols-3 gap-x-4 py-4'>
 
                 <Tag theme="Transparent">lorem</Tag>
                 <Tag theme="Transparent">lorem</Tag>
@@ -94,29 +101,30 @@ function Home() {
 
             </div>
             <h3>Ofertas</h3>
-            <div className='flex w-full justify-between '>
-                <div className='h-[70px] w-[70px] bg-green-500 rounded-[10px]'>
-                    <span className='text-white'>Todos</span>
+            <div className='flex w-full justify-between  py-4'>
+                <div className='h-[100px] w-[100px] bg-green-500 rounded-[10px] p-2'>
+                    <img src="/watch.png" alt="" />
+                    <span className='block w-full text-white text-center p-2'>lorem</span>
                 </div>
-                <div className='h-[70px] w-[70px] bg-purple-500 rounded-[10px]'>
-                    <span className='text-white'>Bienes</span>
-                </div>
-                <div className='h-[70px] w-[70px] bg-red-500 rounded-[10px]'>
-                    <span className='text-white'>Productos</span>
-                </div>
+                <div className='h-[100px] w-[100px] bg-purple-500 rounded-[10px]  p-2'>
+                    <img src="/watch.png" alt="" />
+                    <span className='block w-full text-white text-center p-2'>lorem</span>                </div>
+                <div className='h-[100px] w-[100px] bg-red-500 rounded-[10px]  p-2'>
+                    <img src="/watch.png" alt="" />
+                    <span className='block w-full text-white text-center p-2'>lorem</span>                </div>
             </div>
             <h3>Novedades</h3>
 
-            <div className='flex w-full justify-between '>
-                <div className='h-[70px] w-[70px] bg-green-500 rounded-[10px]'>
-                    <span className='text-white'>Todos</span>
-                </div>
-                <div className='h-[70px] w-[70px] bg-purple-500 rounded-[10px]'>
-                    <span className='text-white'>Bienes</span>
-                </div>
-                <div className='h-[70px] w-[70px] bg-red-500 rounded-[10px]'>
-                    <span className='text-white'>Productos</span>
-                </div>
+            <div className='flex w-full justify-between  py-4'>
+                <div className='h-[100px] w-[100px] bg-green-500 rounded-[10px]  p-2'>
+                    <img src="/watch.png" alt="" />
+                    <span className='block w-full text-white text-center p-2'>lorem</span>                </div>
+                <div className='h-[100px] w-[100px] bg-purple-500 rounded-[10px]  p-2'>
+                    <img src="/watch.png" alt="" />
+                    <span className='block w-full text-white text-center p-2'>lorem</span>                </div>
+                <div className='h-[100px] w-[100px] bg-red-500 rounded-[10px]  p-2'>
+                    <img src="/watch.png" alt="" />
+                    <span className='block w-full text-white text-center p-2'>lorem</span>                </div>
             </div>
             <Card i={{
                 nombre: 'Producto',
