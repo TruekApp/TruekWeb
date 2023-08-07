@@ -141,10 +141,10 @@ function Home() {
                 }} />
                 <Card i={{
                     nombre: 'Producto',
-                    info: 'Trueke y compra',
+                    info: 'Trueke',
                     descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elitrum deserunt ipsam maiores facilis.',
                     url: './pop.png',
-                    costo: '100'
+                    costo: 'TRUEKE'
                 }} />
                 <CardV i={{
                     nombre: 'Producto',
