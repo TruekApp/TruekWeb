@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content="Truekes, Ofertas, comunidades y mucho mas" />
         <meta name="keywords" content="Logistics Gear" />
         <meta name="author" content="Logistics Gear" />
-        <title>Truek App</title>
+        <title>Truek App</title>  
       </head>
       <body className={inter.className}>
         <UserProvider>

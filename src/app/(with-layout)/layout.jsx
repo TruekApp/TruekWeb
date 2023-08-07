@@ -56,7 +56,7 @@ function Home({ children }) {
 
   return (
     // <div className="pt-[65px] pb-[65px] min-h-screen bg-gray-white"  style={{ backgroundImage: `url(bg.png)`, backgroundAttachment: 'fixed', backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom' }}>
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white max-w-[800px]">
       {modal == 'SignOut' && <Modal funcion={signOutConfirm}>
         Estas seguro de salir...? <br /> {Object.keys(cart).length > 0 && 'Tus compras no han sido efectuadas' }
       </Modal>}
@@ -79,7 +79,7 @@ function Home({ children }) {
               <button type="button" className="inline-flex items-center p-2 text-[14px] text-white rounded-lg hidden lg:block" onClick={openNav}>
                 <svg className="w-9 h-9 text-white" aria-hidden="true" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill="white" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"  ></path></svg>
               </button>
-              <h1 className='text-[18px] hidden lg:flex lg:justify-between ml-5 lg:w-[240px] lg:items-center text-white font-medium'> <img src="/logo-circle.png" className='h-[50px] w-[50px]' alt="" /> <span className='font-medium'>PRECIO JUSTO SRL</span></h1>
+              <h1 className='text-[18px] hidden lg:flex lg:justify-between ml-5 lg:w-[240px] lg:items-center text-white font-medium'> <img src="/logo-circle.png" className='h-[50px] w-[50px]' alt="" /> <span className='font-medium'>Truek App</span></h1>
             </div>
           </div>
 
@@ -89,7 +89,7 @@ function Home({ children }) {
               <button type="button" className="inline-flex items-center p-2 text-[14px] text-white rounded-lg  " onClick={openNav}>
                 <svg className="w-9 h-9 text-gray-900" aria-hidden="true" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill="white" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"  ></path></svg>
               </button>
-              <h1 className='text-[18px] hidden lg:flex lg:justify-between ml-5 lg:w-[240px] lg:items-center text-white font-medium'> <img src="/logo-circle.png" className='h-[50px] w-[50px]' alt="" /> <span className='font-medium'>PRECIO JUSTO SRL</span></h1>
+              <h1 className='text-[18px] hidden lg:flex lg:justify-between ml-5 lg:w-[240px] lg:items-center text-white font-medium'> <img src="/logo-circle.png" className='h-[50px] w-[50px]' alt="" /> <span className='font-medium'>Truek App</span></h1>
             </div>
             :
             <button type="button" className="inline-flex items-center lg:hidden p-2 text-[14px] text-white rounded-lg  dark:hover:bg-gray-700 dark:focus:ring-gray-600" onClick={() => back(!nav)}>
