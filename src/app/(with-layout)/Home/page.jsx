@@ -62,7 +62,8 @@ function Home() {
         nombre: 'Producto',
         info: 'Trueke y compra',
         descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis voluptatum ipsam quidem qui vel nobis? Accusamus, exercitationem qui! Cupiditate magni debitis provident enim nulla iure laborum deserunt ipsam maiores facilis.',
-        url: '/bg.svg'
+        url: '/bg.svg',
+        costo: '100'
     }} />
             {/* {(modal == 'Recetar' || modal == 'Comprar') && <Modal funcion={storeConfirm}>Estas seguro de cambiar a {modal}. <br /> {Object.keys(cart).length > 0 && 'Tus datos se borraran' }</Modal>}
 
