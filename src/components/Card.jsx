@@ -9,10 +9,7 @@ export default function Card({ i }) {
     const { user, userDB, distributorPDB, setUserDistributorPDB, setUserItem, item, setUserData, setUserSuccess, cart, setUserCart, modal, setModal } = useUser()
     const router = useRouter()
 
-    function seeMore(e) {
-        setUserItem(i)
-        router.push('/Producto')
-    }
+ 
 
     // const addCart = (e) => {
     //     e.preventDefault()
@@ -41,7 +38,7 @@ export default function Card({ i }) {
     // }
     console.log(item)
     return (
-        <div class="relative w-full bg-gray-100 min-h-[180px] max-w-[500px] rounded-[15px] border border-gray-200 rounded-[20px] shadow mt-5" onClick={(e) => seeMore(e, i)} style={{ display: 'grid', gridTemplateColumns: 'auto 150px' }}>
+        <div class="relative w-full bg-gray-100 min-h-[180px] max-w-[500px] rounded-[15px] border border-gray-200 rounded-[20px] shadow mt-5"  style={{ display: 'grid', gridTemplateColumns: 'auto 150px' }}>
             <div class=" p-4  flex flex-col justify-between leading-normal">
                 <div class="">
                     <div class=" font-bold text-[16px] mb-2 text-gray-950">
